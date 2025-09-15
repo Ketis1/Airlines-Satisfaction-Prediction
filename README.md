@@ -134,7 +134,69 @@ To effectively compare the performance of the trained models, several visualizat
 
 The visualization plots were saved to Google Drive in PNG format for easy access and inclusion in the README file.
 
+------
 
+## Model Comparison Visualizations
+
+To compare the performance of the trained models, several visualizations were generated:
+
+- **Heatmap**: Provides a comprehensive overview of all evaluation metrics (Accuracy, Precision, Recall, F1-score, ROC AUC, MCC) for each model on both the evaluation and test sets.
+  - Heatmap: ![models_metrics_heatmap.png](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/model_metrics_heatmap.png)
+  - Sorted Heatmap: ![models_metrics_heatmap_sorted.png](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/model_metrics_heatmap_sorted.png)
+
+- **Bar Plots for Individual Metrics**: Shows the performance of all models on each individual metric for both evaluation and test datasets.
+  - Accuracy: ![Accuracy_comparison.png](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/Accuracy_comparison.png)
+  - Precision: ![Precision_comparison.png](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/Precision_comparison.png)
+  - Recall: ![Recall_comparison.png](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/Recall_comparison.png)
+  - F1-score: ![F1-score_comparison.png](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/F1-score_comparison.png)
+  - ROC AUC: ![ROC AUC_comparison.png](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/ROC%20AUC_comparison.png)
+  - MCC: ![MCC_comparison.png](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/MCC_comparison.png)
+  - Sorted Accuracy: ![Accuracy_comparison_sorted.png](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/Accuracy_comparison_sorted.png)
+
+
+- **Pairwise Scatter Plots**: Visualizes the relationships between different evaluation metrics.
+  - Pairwise Metrics: ![pairwise_metrics.png](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/pairwise_metrics.png)
+
+- **Confusion Matrix Heatmaps**: Displays the confusion matrix for each model on both evaluation and test sets.
+  - Confusion Matrices:
+    - ![best_log_reg_model_Evaluation Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_log_reg_model_Evaluation%20Set_confusion_matrix.png)
+    - ![best_log_reg_model_Test Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_log_reg_model_Test%20Set_confusion_matrix.png)
+    - ![best_decision_tree_model_Evaluation Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_decision_tree_model_Evaluation%20Set_confusion_matrix.png)
+    - ![best_decision_tree_model_Test Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_decision_tree_model_Test%20Set_confusion_matrix.png)
+    - ![best_random_forest_model_Evaluation Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_random_forest_model_Evaluation%20Set_confusion_matrix.png)
+    - ![best_random_forest_model_Test Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_random_forest_model_Test%20Set_confusion_matrix.png)
+    - ![best_gradient_boosted_trees_model_Evaluation Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_gradient_boosted_trees_model_Evaluation%20Set_confusion_matrix.png)
+    - ![best_gradient_boosted_trees_model_Test Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_gradient_boosted_trees_model_Test%20Set_confusion_matrix.png)
+    - ![best_lightgbm_model_Evaluation Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_lightgbm_model_Evaluation%20Set_confusion_matrix.png)
+    - ![best_lightgbm_model_Test Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_lightgbm_model_Test%20Set_confusion_matrix.png)
+    - ![best_xgboost_model_Evaluation Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_xgboost_model_Evaluation%20Set_confusion_matrix.png)
+    - ![best_xgboost_model_Test Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_xgboost_model_Test%20Set_confusion_matrix.png)
+    - ![best_knn_model_Evaluation Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_knn_model_Evaluation%20Set_confusion_matrix.png)
+    - ![best_knn_model_Test Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_knn_model_Test%20Set_confusion_matrix.png)
+    - ![best_extra_trees_model_Evaluation Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_extra_trees_model_Evaluation%20Set_confusion_matrix.png)
+    - ![best_extra_trees_model_Test Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_extra_trees_model_Test%20Set_confusion_matrix.png)
+    - ![best_sgd_model_Evaluation Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_sgd_model_Evaluation%20Set_confusion_matrix.png)
+    - ![best_sgd_model_Test Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_sgd_model_Test%20Set_confusion_matrix.png)
+    - ![best_perceptron_model_Evaluation Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_perceptron_model_Evaluation%20Set_confusion_matrix.png)
+    - ![best_perceptron_model_Test Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_perceptron_model_Test%20Set_confusion_matrix.png)
+    - ![best_tf_mlp_model_Evaluation Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_tf_mlp_model_Evaluation%20Set_confusion_matrix.png)
+    - ![best_tf_mlp_model_Test Set](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_tf_mlp_model_Test%20Set_confusion_matrix.png)
+
+- **Radar Charts (Spider Plots)**: Visualizes a model's performance across multiple metrics in a radial plot.
+  - Radar Plots:
+    - ![best_tf_mlp_model](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_tf_mlp_model_radar_plot.png)
+  - Sorted Radar Plots:
+    - ![best_lightgbm_model](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_lightgbm_model_radar_sorted.png)
+    - ![best_gradient_boosted_trees_model](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_gradient_boosted_trees_model_radar_sorted.png)
+    - ![best_random_forest_model](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_random_forest_model_radar_sorted.png)
+    - ![best_xgboost_model](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_xgboost_model_radar_sorted.png)
+    - ![best_tf_mlp_model](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_tf_mlp_model_radar_sorted.png)
+    - ![best_extra_trees_model](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_extra_trees_model_radar_sorted.png)
+    - ![best_decision_tree_model](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_decision_tree_model_radar_sorted.png)
+    - ![best_knn_model](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_knn_model_radar_sorted.png)
+    - ![best_sgd_model](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_sgd_model_radar_sorted.png)
+    - ![best_log_reg_model](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_log_reg_model_radar_sorted.png)
+    - ![best_perceptron_model](https://github.com/Ketis1/Airlines-Satisfaction-Prediction/blob/main/files/AirlineSatisfactionEvaluationData/Plots/best_perceptron_model_radar_sorted.png)
 
 
 
