@@ -1,5 +1,7 @@
 # Airlines-Satisfaction-Prediction
 
+- Dataset: [kaggle](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
+
 ## Data Analysis
 
 The data analysis section focused on understanding the distributions of the features and their correlation with the target variable ('satisfaction').
